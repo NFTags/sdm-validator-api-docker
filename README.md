@@ -76,12 +76,12 @@ Create Continuous Deployment for Container:
     - Select "Continuously deploy new revisions from a source repository"
       - Click "Set up with cloud build"
         - Connect to Github
-        - Select Repository "tag-setup-backend-docker"
+        - Select Repository "sdm-validator-api-docker"
         - Select a Branch "main" or "staging"
         - Build Type: Dockerfile
         - Source location: /Dockerfile
       - Click "Save"
-    - Service Name: "[client-id]-tag-writer-ci"
+    - Service Name: "[client-id]-tag-validator-ci"
     - Region: us-central1
     - Select "Allow unauthenticated invocations"
     - Open the "Container, Networking, Security" section
