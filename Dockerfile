@@ -1,4 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.7-2021-10-26
+FROM tiangolo/uwsgi-nginx-flask:python3.7-2022-04-21
 
 COPY requirements.txt /tmp/requirements.txt
 RUN pip3 install --no-cache -r /tmp/requirements.txt
